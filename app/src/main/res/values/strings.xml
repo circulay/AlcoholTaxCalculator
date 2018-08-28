@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">酒税計算</string>
+    <string name="text_types">お酒の酒類</string>
+    <string name="text_amount">購入したお酒の総量(ml)</string>
+    <string name="text_price">購入価格(円)</string>
+    <string name="cal_btn">酒税を計算する</string>
+    <string name="clear_btn">クリアする</string>
+    <string name="exist_non_imp">"未入力データあり"</string>
+    <string name="no_imp_data">"入力データなし"</string>
+
+    <string name="beer">ビール</string>
+    <string name="lowMaltBeer">発泡酒</string>
+    <string name="newGenre">新ジャンル</string>
+
+    <string-array name="alc_list">
+        <item>@string/beer</item>
+        <item>@string/lowMaltBeer</item>
+        <item>@string/newGenre</item>
+    </string-array>
+</resources>
