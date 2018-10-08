@@ -40,23 +40,7 @@ public class TaxCal extends Activity implements View.OnClickListener {
     EditText edit_amount;
     String price_str;
     String amount_str;
-
-    /* 酒類場合分けのバージョン
-    //ビール（1klあたり220000円)
-    int beer_tax;
-    int beer_result;
-    int beer_rate;
-
-    //発泡酒 (1klあたり134250円)
-    int lowMaltBeer_tax;
-    int lowMaltBeer_result;
-    int lowMaltBeer_rate;
-
-    //新ジャンル (1klあたり80000円)
-    int newGanre_tax;
-    int newGanre_result;
-    int newGanre_rate;
-    */
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
